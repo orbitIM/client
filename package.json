@@ -1,0 +1,23 @@
+{
+	"name": "client",
+	"type": "module",
+	"version": "0.0.1",
+	"description": "orbit client libraries for various languages. (javascript version)",
+	"main": "javascript/index.js",
+	"scripts": {
+		"test": "node ./test/javascript.js"
+	},
+	"keywords": [
+		"orbit",
+		"messaging",
+		"chat"
+	],
+	"author": "orbit",
+	"license": "MIT",
+	"dependencies": {
+		"ws": "^8.6.0"
+	},
+	"devDependencies": {
+		"dotenv": "^16.0.1"
+	}
+}
